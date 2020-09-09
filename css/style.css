@@ -1,4 +1,4 @@
-/*** Containers Padrões, Wrappers etc ***/
+/*** Containers Padrões, Váriaveis etc ***/
 .padding-container {
     margin: 0 auto;
     padding: 0 3.75em;
@@ -28,19 +28,27 @@
     }
 }
 
+:root {
+    --secondary-color: #262625;
+    --tertiary-color: #ffffff;
+    --main-color: #4b3621;
+}
+
 
 /*** Header ***/
 .main-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 30px 0 30px 0;
+    padding: 1.875em 0 1.875em 0;
 
 }
 
 .main-nav__logo {
     text-transform: uppercase;
-    color: #171313;
+    font-weight: 700;
+    letter-spacing: 0.2ch;
+    color: var(--secondary-color);
 }
 
 .main-nav__links {
@@ -49,31 +57,32 @@
 }
 
 .main-nav__list {
-    margin: 0 30px 0 0;
+    margin: 0 1.875em 0 0;
 }
 
 .main-nav__link {
-    color: #456b5e;
+    color: var(--main-color);
     font-weight: 900;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .main-nav__icon {
-    color: #456b5e;    
-    font-size: 14px;
+    color: var(--main-color);   
+    font-size: 0.875rem;
 }
 
 .search-nav {
-    background: #9fff45;
-    padding: 30px 0 30px 0;
+    background: var(--main-color);
+    padding: 1.875em 0 1.875em 0;
 }
 
 .search-nav__link {
-    font-weight: 500;
+    font-weight: 900;
     font-style: italic;
-    color: #456b5e;
+    color: var(--tertiary-color);
 }
 
 .search-nav__icon {
-    font-size: 13px;    
+    font-size: 0.813rem;    
+    color: var(--tertiary-color);
 }
