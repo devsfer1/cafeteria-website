@@ -1,0 +1,79 @@
+/*** Containers Padrões, Wrappers etc ***/
+.padding-container {
+    margin: 0 auto;
+    padding: 0 3.75em;
+}
+
+@media(max-width: 2800px) {
+    .padding-container {
+        padding: 0 13.75em;
+    }
+}
+
+@media(max-width: 1980px) {
+    .padding-container {
+        padding: 0 8em;
+    }
+}
+
+@media(max-width: 1024px) {
+    .padding-container {
+        padding: 0 2.5em;
+    }
+}
+
+@media(max-width: 768px) {
+    .padding-container {
+        padding: 0 1.25em;
+    }
+}
+
+
+/*** Header ***/
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+
+}
+
+.main-nav__logo {
+    text-transform: uppercase;
+    color: #171313;
+}
+
+.main-nav__links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav__list {
+    margin: 0 30px 0 0;
+}
+
+.main-nav__link {
+    color: #456b5e;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.main-nav__icon {
+    color: #456b5e;    
+    font-size: 14px;
+}
+
+.search-nav {
+    background: #9fff45;
+    padding: 30px 0 30px 0;
+}
+
+.search-nav__link {
+    font-weight: 500;
+    font-style: italic;
+    color: #456b5e;
+}
+
+.search-nav__icon {
+    font-size: 13px;    
+}
