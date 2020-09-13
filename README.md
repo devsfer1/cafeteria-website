@@ -6,5 +6,5 @@
 </p>
 <br>
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/58652794/93027535-cafa3d00-f5e3-11ea-9634-6033ff2a6b56.gif">
+    <img src="https://user-images.githubusercontent.com/58652794/93027208-d6e4ff80-f5e1-11ea-8e4c-e1d49b50b977.gif">
 </p>
