@@ -5,6 +5,4 @@
     <img src="https://user-images.githubusercontent.com/58652794/93027488-8d95af80-f5e3-11ea-83e0-46765a15509d.gif">
 </p>
 <br>
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/58652794/93027208-d6e4ff80-f5e1-11ea-8e4c-e1d49b50b977.gif">
-</p>
+<h4><a href="https://devsfe.github.io/cafeteria-blog-website/">Acesse a Demonstração aqui</a></h4>
